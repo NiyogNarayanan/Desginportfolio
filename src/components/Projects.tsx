@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import project1 from '@/assets/project-1.jpg';
 import project2 from '@/assets/project-2.jpg';
 import project3 from '@/assets/project-3.jpg';
+import project4 from '@/assets/project-4.jpg';
 
 const Projects = () => {
   const projects = [
@@ -36,7 +37,7 @@ const Projects = () => {
       title: 'Mindor Tech Company Website',
       description: 'Designed new website with improved UX and custom-designed cards to showcase services. Included smooth animations for better SEO and user flow design.',
       category: 'Corporate Website',
-      image: project1,
+      image: project4,
       tags: ['Corporate', 'Service Design', 'SEO']
     },
     {
