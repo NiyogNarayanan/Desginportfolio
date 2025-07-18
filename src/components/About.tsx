@@ -3,51 +3,53 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
   const stats = [
-    { icon: Award, value: '50+', label: 'Projects Completed' },
-    { icon: Users, value: '25+', label: 'Happy Clients' },
-    { icon: Clock, value: '3+', label: 'Years Experience' },
-    { icon: Coffee, value: '1000+', label: 'Cups of Coffee' }
+    { icon: Award, value: '6+', label: 'Projects Completed' },
+    { icon: Users, value: '50+', label: 'Audiobooks Produced' },
+    { icon: Clock, value: '1.2+', label: 'Years Experience' },
+    { icon: Coffee, value: '500+', label: 'Hours of Research' }
   ];
 
   const skills = [
-    'User Research', 'Wireframing', 'Prototyping', 'Visual Design',
-    'Interaction Design', 'Usability Testing', 'Figma', 'Adobe Creative Suite'
+    'User Research', 'Wireframing', 'Prototyping', 'Interaction Design',
+    'Figma', 'Adobe XD', 'Community-Driven UX', 'Product Operations',
+    'UX Research', 'Game Design', 'Visual Storytelling', 'Site Mapping'
   ];
 
   return (
     <section id="about" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
-            About Me
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-4xl font-bold text-foreground mb-4">
+              About Niyog
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm passionate about creating user-centered designs that solve real problems 
-            and deliver exceptional experiences across all digital touchpoints.
-          </p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Creative and detail-oriented UI/UX Designer with strong foundation in human-centered design, 
+              usability principles, and UX research methodologies. Passionate about creating intuitive, 
+              accessible, and visually engaging digital experiences.
+            </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Story */}
           <div className="space-y-6 animate-fade-in">
             <h3 className="text-2xl font-semibold text-foreground">
-              My Design Journey
+              My Professional Journey
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                With over 3 years of experience in UI/UX design, I've had the privilege 
-                of working with startups and established companies to create digital 
-                products that users love.
+                Currently working as a UI/UX Designer at Mindor Tech, I specialize in creating 
+                responsive design systems and delivering user-centered wireframes and UI kits. 
+                My experience spans across web and mobile platforms with a focus on pixel-perfect implementation.
               </p>
               <p>
-                My approach combines user research, strategic thinking, and beautiful 
-                visual design to deliver solutions that not only look great but perform 
-                exceptionally well.
+                At Dreamloop.ai, I've enhanced user experiences across multiple products including 
+                Max2D, Hora App, and NovelFM. Notable achievements include improving Google Play Store 
+                ratings from 2.0 to 3.0 and increasing user engagement by 75% through strategic UX improvements.
               </p>
               <p>
-                When I'm not designing, you'll find me exploring new design trends, 
-                contributing to design communities, or enjoying a good cup of coffee 
-                while sketching new ideas.
+                With a Bachelor's in Game Design from Chitkara University, I bring a unique perspective 
+                to UI/UX design, combining interactive systems knowledge with user experience principles 
+                to create engaging digital products.
               </p>
             </div>
 

@@ -11,15 +11,15 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Creating Digital
+                Crafting Digital
                 <span className="block bg-warm-gradient bg-clip-text text-transparent">
                   Experiences
                 </span>
-                That Matter
+                That Connect
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-                I'm a passionate UI/UX designer crafting intuitive and beautiful digital experiences 
-                that connect users with brands in meaningful ways.
+                Creative UI/UX Designer with 1+ years of experience in user research, 
+                interaction design, and creating intuitive digital experiences across web and mobile platforms.
               </p>
             </div>
 
@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
 
             <div className="flex items-center gap-4 text-muted-foreground">
-              <span>Available for new projects</span>
+              <span>Based in Kottayam, Kerala • Available for projects</span>
               <div className="w-2 h-2 bg-secondary rounded-full animate-pulse"></div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="relative">
               <img 
                 src={heroPortrait} 
-                alt="Alex Designer"
+                alt="Niyog Narayanan A O"
                 className="w-full max-w-md mx-auto rounded-2xl shadow-card"
               />
               <div className="absolute inset-0 rounded-2xl bg-warm-gradient opacity-10"></div>

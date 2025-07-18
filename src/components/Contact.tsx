@@ -7,20 +7,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      description: 'hello@alexdesigner.com',
+      description: 'niyognarayanan@gmail.com',
       action: 'Send Email'
     },
     {
       icon: MessageCircle,
-      title: 'WhatsApp',
-      description: '+1 (555) 123-4567',
-      action: 'Start Chat'
+      title: 'Phone',
+      description: '+91 7009857869',
+      action: 'Call Now'
     }
   ];
 
   const socialLinks = [
-    { icon: Linkedin, label: 'LinkedIn', href: '#' },
-    { icon: Twitter, label: 'Twitter', href: '#' }
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/niyognarayanan/' },
+    { icon: Twitter, label: 'Behance', href: 'https://www.behance.net/niyognarayanan' }
   ];
 
   return (
@@ -31,8 +31,8 @@ const Contact = () => {
             Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Have a project in mind? I'd love to hear about it. Let's create something 
-            amazing together that your users will love.
+            Have a project in mind? I'd love to collaborate and create something amazing together. 
+            Let's discuss how we can bring your ideas to life with exceptional user experiences.
           </p>
         </div>
 
@@ -64,11 +64,11 @@ const Contact = () => {
           <div className="text-center space-y-6 animate-fade-in">
             <div className="bg-warm-gradient p-8 rounded-2xl text-center shadow-hero">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Ready to Start Your Project?
+                Ready to Create Amazing Experiences?
               </h3>
               <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-                Let's discuss your ideas and turn them into exceptional digital experiences. 
-                I'm currently available for new projects and collaborations.
+                I'm passionate about solving user problems through thoughtful design. Currently available 
+                for new projects and collaborations in UI/UX design and product development.
               </p>
               <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
                 Get In Touch

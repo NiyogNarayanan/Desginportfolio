@@ -9,27 +9,43 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'MobileFirst Banking App',
-      description: 'A comprehensive mobile banking solution with intuitive UX and modern design patterns.',
-      category: 'Mobile App Design',
+      title: 'E-Commerce Web & Mobile Application',
+      description: 'Designed a dual-platform e-commerce experience focused on simplicity and engagement. Developed high-fidelity prototypes for product pages, checkout flows, and admin dashboards.',
+      category: 'E-commerce Platform',
       image: project1,
-      tags: ['UI Design', 'Mobile', 'Fintech']
+      tags: ['Mobile App', 'Web Design', 'UX Flow']
     },
     {
       id: 2,
-      title: 'Analytics Dashboard',
-      description: 'Clean and powerful dashboard design for data visualization and business intelligence.',
-      category: 'Web App Design',
+      title: 'Nova - Minecraft Server App',
+      description: 'Designed a mobile app for a Minecraft server integrating community features, news, and user profiles. Focused on accessibility, onboarding flow, and interface consistency.',
+      category: 'Mobile App Design',
       image: project2,
-      tags: ['Dashboard', 'Data Viz', 'SaaS']
+      tags: ['Community App', 'Gaming', 'Mobile UX']
     },
     {
       id: 3,
-      title: 'E-commerce Platform',
-      description: 'Modern e-commerce experience with focus on conversion optimization and user journey.',
-      category: 'E-commerce',
+      title: 'Tribble Tokes Website Redesign',
+      description: 'Complete website redesign with modern, user-focused approach. Implemented clean visual aesthetic and intuitive layout aligned with brand identity.',
+      category: 'Website Redesign',
       image: project3,
-      tags: ['E-commerce', 'UX Research', 'Conversion']
+      tags: ['Web Redesign', 'Brand Identity', 'UX Strategy']
+    },
+    {
+      id: 4,
+      title: 'Mindor Tech Company Website',
+      description: 'Designed new website with improved UX and custom-designed cards to showcase services. Included smooth animations for better SEO and user flow design.',
+      category: 'Corporate Website',
+      image: project1,
+      tags: ['Corporate', 'Service Design', 'SEO']
+    },
+    {
+      id: 5,
+      title: 'House of Baisa E-commerce',
+      description: 'Redesigned online clothing store with better layout and modern UI while maintaining brand aesthetics. Improved user experience and shopping flow.',
+      category: 'E-commerce Redesign',
+      image: project2,
+      tags: ['Fashion', 'E-commerce', 'UI Redesign']
     }
   ];
 
@@ -41,8 +57,8 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A selection of my recent work showcasing different aspects of UI/UX design, 
-            from mobile apps to complex dashboard interfaces.
+            A showcase of my recent projects spanning e-commerce platforms, mobile applications, 
+            corporate websites, and community-driven experiences across various industries.
           </p>
         </div>
 

@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="text-xl font-bold bg-warm-gradient bg-clip-text text-transparent">
-            Alex Designer
+            Niyog Narayanan
           </div>
 
           {/* Desktop Navigation */}

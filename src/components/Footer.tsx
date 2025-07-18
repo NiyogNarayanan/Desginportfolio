@@ -4,11 +4,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-lg font-bold bg-warm-gradient bg-clip-text text-transparent">
-            Alex Designer
+            Niyog Narayanan
           </div>
           
           <div className="text-sm text-background/70">
-            © 2024 Alex Designer. All rights reserved.
+            © 2024 Niyog Narayanan A O. All rights reserved.
           </div>
           
           <div className="flex gap-6">
