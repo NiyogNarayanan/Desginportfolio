@@ -5,7 +5,7 @@ const About = () => {
   const stats = [
     { icon: Award, value: '6+', label: 'Projects Completed' },
     { icon: Users, value: '50+', label: 'Audiobooks Produced' },
-    { icon: Clock, value: '1.2+', label: 'Years Experience' },
+    { icon: Clock, value: '1.4+', label: 'Years Experience' },
     { icon: Coffee, value: '500+', label: 'Hours of Research' }
   ];
 
