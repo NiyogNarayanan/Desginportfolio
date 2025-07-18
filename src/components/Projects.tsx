@@ -46,7 +46,15 @@ const Projects = () => {
       category: 'E-commerce Redesign',
       image: project2,
       tags: ['Fashion', 'E-commerce', 'UI Redesign']
-    }
+    },
+    {
+      id: 6,
+      title: 'House of Baisa E-commerce',
+      description: 'Redesigned online clothing store with better layout and modern UI while maintaining brand aesthetics. Improved user experience and shopping flow.',
+      category: 'E-commerce Redesign',
+      image: project2,
+      tags: ['Fashion', 'E-commerce', 'UI Redesign']
+  }
   ];
 
   return (
