@@ -6,6 +6,7 @@ import project2 from '@/assets/project-2.jpg';
 import project3 from '@/assets/project-3.jpg';
 import project4 from '@/assets/project-4.jpg';
 import project5 from '@/assets/project-5.jpg';
+import project6 from '@/assets/project-6.jpg';
 
 const Projects = () => {
   const projects = [
@@ -22,7 +23,7 @@ const Projects = () => {
       title: 'Nova - Minecraft Server App',
       description: 'Designed a mobile app for a Minecraft server integrating community features, news, and user profiles. Focused on accessibility, onboarding flow, and interface consistency.',
       category: 'Mobile App Design',
-      image: project2,
+      image: project6,
       tags: ['Community App', 'Gaming', 'Mobile UX']
     },
     {
