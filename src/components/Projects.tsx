@@ -5,7 +5,7 @@ import project1 from '@/assets/project-1.jpg';
 import project2 from '@/assets/project-2.jpg';
 import project3 from '@/assets/project-3.jpg';
 import project4 from '@/assets/project-4.jpg';
-import project6 from '@/assets/project-6.jpg';
+import project5 from '@/assets/project-5.jpg';
 
 const Projects = () => {
   const projects = [
@@ -54,7 +54,7 @@ const Projects = () => {
       title: 'Student management system for institutions',
       description: 'Developed a responsive web app for an educational institution with admin CRUD features for students, teachers, and courses, payment management, and dedicated portals for teachers and students to manage schedules, assignments, and profiles.',
       category: 'Dashbord Design',
-      image: project6,
+      image: project5,
       tags: ['Dashbord', 'Web design']
   }
   ];
