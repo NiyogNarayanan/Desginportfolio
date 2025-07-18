@@ -24,12 +24,16 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="shadow-hero">
-                View My Work
-              </Button>
-              <Button variant="outline" size="lg">
-                Download Resume
-              </Button>
+              <a href="#projects">
+                <Button size="lg" className="shadow-hero">
+                  View My Work
+                </Button>
+              </a>
+              <a href="mailto:niyognarayanan@gmail.com">
+                <Button variant="outline" size="lg">
+                  Get In Touch
+                </Button>
+              </a>
             </div>
 
             <div className="flex items-center gap-4 text-muted-foreground">

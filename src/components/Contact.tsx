@@ -8,13 +8,15 @@ const Contact = () => {
       icon: Mail,
       title: 'Email',
       description: 'niyognarayanan@gmail.com',
-      action: 'Send Email'
+      action: 'Send Email',
+      href: 'mailto:niyognarayanan@gmail.com'
     },
     {
       icon: MessageCircle,
       title: 'Phone',
       description: '+91 7009857869',
-      action: 'Call Now'
+      action: 'Call Now',
+      href: 'tel:+917009857869'
     }
   ];
 
@@ -52,9 +54,11 @@ const Contact = () => {
                   <p className="text-muted-foreground mb-4">
                     {method.description}
                   </p>
-                  <Button variant="outline">
-                    {method.action}
-                  </Button>
+                  <a href={method.href}>
+                    <Button variant="outline">
+                      {method.action}
+                    </Button>
+                  </a>
                 </CardContent>
               </Card>
             ))}
@@ -70,9 +74,11 @@ const Contact = () => {
                 I'm passionate about solving user problems through thoughtful design. Currently available 
                 for new projects and collaborations in UI/UX design and product development.
               </p>
-              <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
-                Get In Touch
-              </Button>
+              <a href="mailto:niyognarayanan@gmail.com">
+                <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
+                  Get In Touch
+                </Button>
+              </a>
             </div>
 
             {/* Social Links */}

@@ -30,9 +30,11 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="default" size="sm">
-              Let's Work Together
-            </Button>
+            <a href="#contact">
+              <Button variant="default" size="sm">
+                Let's Work Together
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -60,9 +62,11 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="default" size="sm" className="self-start mt-4">
-                Let's Work Together
-              </Button>
+              <a href="#contact">
+                <Button variant="default" size="sm" className="self-start mt-4">
+                  Let's Work Together
+                </Button>
+              </a>
             </div>
           </div>
         )}

@@ -76,12 +76,14 @@ const Projects = () => {
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300"></div>
-                <Button
-                  size="sm"
-                  className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg"
-                >
-                  <ExternalLink className="h-4 w-4" />
-                </Button>
+                <a href="#contact">
+                  <Button
+                    size="sm"
+                    className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                  </Button>
+                </a>
               </div>
               
               <CardContent className="p-6">
@@ -118,9 +120,11 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12 animate-fade-in">
-          <Button variant="outline" size="lg">
-            View All Projects
-          </Button>
+          <a href="#contact">
+            <Button variant="outline" size="lg">
+              Let's Discuss Your Project
+            </Button>
+          </a>
         </div>
       </div>
     </section>
