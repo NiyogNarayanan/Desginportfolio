@@ -52,7 +52,7 @@ const Projects = () => {
     {
       id: 6,
       title: 'Student management system for institutions',
-      description: 'Designed and developed a responsive web application for an educational institution to streamline administrative and academic operations. The platform includes an admin dashboard with full CRUD functionality for managing students, teachers, and courses. It also enables payment tracking and management. Teachers and students have dedicated portals to manage their respective activities, such as class schedules, course assignments, and personal information.',
+      description: 'Developed a responsive web app for an educational institution with admin CRUD features for students, teachers, and courses, payment management, and dedicated portals for teachers and students to manage schedules, assignments, and profiles.',
       category: 'Dashbord Design',
       image: project6,
       tags: ['Dashbord', 'Web design']
