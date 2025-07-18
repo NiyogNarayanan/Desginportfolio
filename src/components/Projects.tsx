@@ -49,8 +49,8 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'House of Baisa E-commerce',
-      description: 'Redesigned online clothing store with better layout and modern UI while maintaining brand aesthetics. Improved user experience and shopping flow.',
+      title: 'Student management system for institutions',
+      description: 'Developed a responsive web application for an educational institution, featuring an admin dashboard that enables efficient management of students and teachers. The system supports full CRUD (Create, Read, Update, Delete) operations for student records and includes functionality for managing payments and tracking fee status.',
       category: 'E-commerce Redesign',
       image: project2,
       tags: ['Fashion', 'E-commerce', 'UI Redesign']
