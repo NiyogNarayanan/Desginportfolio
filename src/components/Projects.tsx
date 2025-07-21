@@ -65,7 +65,15 @@ const Projects = () => {
       category: 'App design',
       image: project2,
       tags: ['Mobile app Design', 'Mobile app Design', 'UI/UX' ]
-  }  
+  },
+  {
+      id: 7,
+      title: 'Mindor Website redesign',
+      description: 'Redesiging Mindor website, giving it a completely new look with improved UX and custom-designed cards to showcase services. Included smooth modern animations for better SEO and user flow design.',
+      category: 'Web design',
+      image: project2,
+      tags: ['Web Design', 'Modern Design', 'UI/UX', 'UI Animations' ]
+  } 
   ];
 
   return (
