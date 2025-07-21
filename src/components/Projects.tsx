@@ -53,11 +53,19 @@ const Projects = () => {
     {
       id: 6,
       title: 'Student management system for institutions',
-      description: 'Developed a responsive web app for an educational institution with admin CRUD features for students, teachers, and courses, payment management, and dedicated portals for teachers and students to manage schedules, assignments, and profiles.',
+      description: 'Designed a responsive web app for an educational institution with admin CRUD features for students, teachers, and courses, payment management, and dedicated portals for teachers and students to manage schedules, assignments, and profiles.',
       category: 'Dashbord Design',
       image: project5,
       tags: ['Dashbord', 'Web design']
-  }
+  },
+  {
+      id: 7,
+      title: 'Subscription Page design',
+      description: 'Designed an intuitive and user-friendly subscription page flow, focusing on seamless user experience, clear pricing tiers, and optimized conversion pathways.',
+      category: 'App design',
+      image: project2,
+      tags: ['Mobile app Design', 'Mobile app Design', 'UI/UX' ]
+  }  
   ];
 
   return (
