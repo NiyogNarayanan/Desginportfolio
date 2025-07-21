@@ -64,16 +64,16 @@ const Projects = () => {
       description: 'Designed an intuitive and user-friendly subscription page flow, focusing on seamless user experience, clear pricing tiers, and optimized conversion pathways.',
       category: 'App design',
       image: project2,
-      tags: ['Mobile app Design', 'Mobile app Design', 'UI/UX' ]
+      tags: ['Mobile app Design', 'UI/UX' ]
   },
   {
-      id: 7,
+      id: 8,
       title: 'Mindor Website redesign',
-      description: 'Redesiging Mindor website, giving it a completely new look with improved UX and custom-designed cards to showcase services. Included smooth modern animations for better SEO and user flow design.',
+      description: 'Redesigning Mindor website, giving it a completely new look with improved UX and custom-designed cards to showcase services. Included smooth modern animations for better SEO and user flow design.',
       category: 'Web design',
-      image: project2,
+      image: project4,
       tags: ['Web Design', 'Modern Design', 'UI/UX', 'UI Animations' ]
-  } 
+  }
   ];
 
   return (
@@ -93,20 +93,20 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card 
               key={project.id} 
-              className="group overflow-hidden shadow-card hover:shadow-hero transition-all duration-300 border-border animate-scale-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="group overflow-hidden shadow-card hover:shadow-hero transition-shadow duration-200 border-border"
             >
               <div className="relative overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-48 object-cover will-change-transform transition-transform duration-200 group-hover:scale-105"
+                  loading="lazy"
                 />
-                <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300"></div>
+                <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-200"></div>
                 <a href="#contact">
-                  <Button
+                    <Button
                     size="sm"
-                    className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg"
+                    className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg"
                   >
                     <ExternalLink className="h-4 w-4" />
                   </Button>
@@ -119,10 +119,10 @@ const Projects = () => {
                     <span className="text-sm text-primary font-medium">
                       {project.category}
                     </span>
-                    <ArrowUpRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                    <ArrowUpRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors duration-200" />
                   </div>
                   
-                  <h3 className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors duration-200">
                     {project.title}
                   </h3>
                   
