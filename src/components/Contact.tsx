@@ -76,13 +76,13 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="mailto:niyognarayanan@gmail.com">
-                  <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
+                  <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90 w-full sm:w-auto">
                     Get In Touch
                   </Button>
                 </a>
                 <a href="/Niyog_Narayanan_Resume.pdf" download="Niyog_Narayanan_Resume.pdf">
-                  <Button variant="outline" size="lg" className="flex items-center gap-2 border-white text-white hover:bg-white hover:text-primary">
-                    <Download className="w-4 h-4" />
+                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto">
+                    <Download className="w-4 h-4 mr-2" />
                     Download Resume
                   </Button>
                 </a>

@@ -25,18 +25,18 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#projects">
-                <Button size="lg" className="shadow-hero">
+                <Button size="lg" className="shadow-hero w-full sm:w-auto">
                   View My Work
                 </Button>
               </a>
               <a href="mailto:niyognarayanan@gmail.com">
-                <Button variant="outline" size="lg">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   Get In Touch
                 </Button>
               </a>
               <a href="/Niyog_Narayanan_Resume.pdf" download="Niyog_Narayanan_Resume.pdf">
-                <Button variant="secondary" size="lg" className="flex items-center gap-2">
-                  <Download className="w-4 h-4" />
+                <Button variant="secondary" size="lg" className="w-full sm:w-auto">
+                  <Download className="w-4 h-4 mr-2" />
                   Download Resume
                 </Button>
               </a>
