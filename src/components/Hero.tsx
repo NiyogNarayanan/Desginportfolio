@@ -1,4 +1,4 @@
-import { ArrowDown, Download } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroPortrait from '@/assets/hero-portrait.jpg';
 
@@ -32,12 +32,6 @@ const Hero = () => {
               <a href="mailto:niyognarayanan@gmail.com">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   Get In Touch
-                </Button>
-              </a>
-              <a href="/Niyog_Narayanan_Resume.pdf" download="Niyog_Narayanan_Resume.pdf">
-                <Button variant="secondary" size="lg" className="w-full sm:w-auto">
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
                 </Button>
               </a>
             </div>

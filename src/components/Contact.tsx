@@ -81,7 +81,7 @@ const Contact = () => {
                   </Button>
                 </a>
                 <a href="/Niyog_Narayanan_Resume.pdf" download="Niyog_Narayanan_Resume.pdf">
-                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto">
+                  <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90 w-full sm:w-auto">
                     <Download className="w-4 h-4 mr-2" />
                     Download Resume
                   </Button>
