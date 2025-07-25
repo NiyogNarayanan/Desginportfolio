@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Linkedin, Twitter } from 'lucide-react';
+import { Mail, MessageCircle, Linkedin, Twitter, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -74,11 +74,19 @@ const Contact = () => {
                 I'm passionate about solving user problems through thoughtful design. Currently available 
                 for new projects and collaborations in UI/UX design and product development.
               </p>
-              <a href="mailto:niyognarayanan@gmail.com">
-                <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
-                  Get In Touch
-                </Button>
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="mailto:niyognarayanan@gmail.com">
+                  <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
+                    Get In Touch
+                  </Button>
+                </a>
+                <a href="/Niyog_Narayanan_Resume.pdf" download="Niyog_Narayanan_Resume.pdf">
+                  <Button variant="outline" size="lg" className="flex items-center gap-2 border-white text-white hover:bg-white hover:text-primary">
+                    <Download className="w-4 h-4" />
+                    Download Resume
+                  </Button>
+                </a>
+              </div>
             </div>
 
             {/* Social Links */}
