@@ -21,8 +21,6 @@ const projectsData = [
     category: 'E-commerce Platform',
     image: project1,
     tags: ['Mobile App', 'Web Design', 'UX Flow'],
-    image: project1,
-    image: project1,
     overview: 'This comprehensive e-commerce project involved designing both web and mobile experiences for a modern retail platform. The focus was on creating an intuitive shopping experience that drives conversions while maintaining brand consistency across all touchpoints.',
     challenge: 'The main challenge was creating a seamless experience across different devices while optimizing for both user experience and business goals. We needed to balance feature-rich functionality with simple, intuitive navigation.',
     solution: 'I developed a design system that scales beautifully across platforms, with emphasis on visual hierarchy, clear call-to-actions, and streamlined checkout processes. The solution included responsive design principles and mobile-first approach.',
