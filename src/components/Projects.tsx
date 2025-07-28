@@ -1,6 +1,7 @@
 import { ExternalLink, ArrowUpRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 import project1 from '@/assets/project-1.jpg';
 import project2 from '@/assets/project-2.jpg';
 import project3 from '@/assets/project-3.jpg';
@@ -91,10 +92,10 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card 
-              key={project.id} 
-              className="group overflow-hidden shadow-card hover:shadow-hero transition-shadow duration-200 border-border"
-            >
+            <Link key={project.id} to={`/project/${project.id}`}>
+              <Card 
+                className="group overflow-hidden shadow-card hover:shadow-hero transition-shadow duration-200 border-border h-full cursor-pointer"
+              >
               <div className="relative overflow-hidden">
                 <img 
                   src={project.image} 
@@ -103,14 +104,12 @@ const Projects = () => {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-200"></div>
-                <a href="#contact">
-                    <Button
-                    size="sm"
-                    className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg"
-                  >
-                    <ExternalLink className="h-4 w-4" />
-                  </Button>
-                </a>
+                <Button
+                  size="sm"
+                  className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                </Button>
               </div>
               
               <CardContent className="p-6">
@@ -142,7 +141,8 @@ const Projects = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+              </Card>
+            </Link>
           ))}
         </div>
 
