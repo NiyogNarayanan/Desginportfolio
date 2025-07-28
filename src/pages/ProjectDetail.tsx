@@ -30,8 +30,6 @@ const projectsData = [
       'Information Architecture & User Flows',
       'Wireframing & Prototyping',
       'Visual Design & Design System',
-      'Usability Testing & Iteration',
-      'Usability Testing & Iteration',
       'Usability Testing & Iteration'
     ]
   },
