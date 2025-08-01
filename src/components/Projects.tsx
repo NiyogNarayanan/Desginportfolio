@@ -59,14 +59,14 @@ const Projects = () => {
       image: project5,
       tags: ['Dashbord', 'Web design']
   },
-  {
-      id: 7,
-      title: 'Subscription Page design',
-      description: 'Designed an intuitive and user-friendly subscription page flow, focusing on seamless user experience, clear pricing tiers, and optimized conversion pathways.',
-      category: 'App design',
-      image: project2,
-      tags: ['Mobile app Design', 'UI/UX' ]
-  },
+//  {
+//      id: 7,
+//      title: 'Subscription Page design',
+//      description: 'Designed an intuitive and user-friendly subscription page flow, focusing on seamless user experience, clear pricing tiers, and optimized conversion pathways.',
+//      category: 'App design',
+//      image: project2,
+//      tags: ['Mobile app Design', 'UI/UX' ]
+//  },
   {
       id: 8,
       title: 'Mindor Website redesign',
